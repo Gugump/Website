@@ -5,7 +5,7 @@
 		<div class="col-lg-6">
 			<h3>Your followers</h3>
 			@if (!$friends->count())
-				<p>You are not following boobs</p>
+				<p>You are not following anybody</p>
 			@else
 				@foreach ($friends as $user)
 					@include('user/partials/userblock')
